@@ -2,7 +2,7 @@
   <div class="nav">
     <nav>
       <div class="logo">
-        Visit Chicago
+        <router-link to="/" class="link">Visit Chicago</router-link>
       </div>
       <ul>
         <li><router-link to="/" class="link">Home</router-link></li>

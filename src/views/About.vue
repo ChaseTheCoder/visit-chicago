@@ -41,6 +41,6 @@ img {
 p {
   padding: 0 0 0 15px;
   font-size: 25px;
-  background-color: transparent;
+  background-color: rgb(245, 245, 245);
 }
 </style>
