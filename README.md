@@ -25,7 +25,7 @@ Very simple Home and About pages created to experience working with the framewor
 
 ### Next Actions
 
-Continue adding developing UI to make it look more modern. Adding more routes to build complexity of the app.
+Continue adding developing UI to make it look more modern. Adding more routes to build complexity of the app. Finally, make respososive.  It is not mobile friendly becuase I was building to learn Vue.js, not style.
 
 ## Contributers
 Chase Sheaff
