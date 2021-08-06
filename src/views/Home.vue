@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home">
     <video src="videos/chicago-bean.mp4" autoPlay loop muted />
   </div>
 </template>

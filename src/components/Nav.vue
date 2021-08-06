@@ -1,20 +1,22 @@
 <template>
-  <nav>
-    <div class="logo">
-      Visit Chicago
-    </div>
-    <ul>
-      <li>Home</li>
-      <li>About</li>
-      <li>Research</li>
-    </ul>
-  </nav>
+  <div class="nav">
+    <nav>
+      <div class="logo">
+        Visit Chicago
+      </div>
+      <ul>
+        <li><router-link to="/" class="link">Home</router-link></li>
+        <li><router-link to="/about" class="link">About</router-link></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- <router-view/> -->
 </template>
 
 <script>
-export default {
-  name: 'Nav',
-}
+  export default {
+    name: 'Nav',
+  }
 </script>
 
 <!-- scoped means only in this specific component -->
@@ -31,6 +33,7 @@ export default {
 .logo:hover {
   color: #76C5EC;
 }
+
 nav {
   width: 100%;
   height: 75px;
@@ -40,9 +43,10 @@ nav {
 
 ul {
   float: right;
+  display: flex;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  height:max-content;
+  padding: 0px;
 }
 
 li {
@@ -53,7 +57,11 @@ li {
   cursor: pointer;
 }
 
-li:hover {
+.link {
+  text-decoration: none;
+}
+
+.link:hover {
   color: #D31931;
 }
 </style>
